@@ -27,7 +27,7 @@ app.use(morgan(NODE_ENV === "development" ? "dev" : "combined"));
 //---------------------------------------------------------------------
 app.use("/api/bible/v1", bibleRoutes);
 //---------------------------------------------------------------------
-app.get("/api/health", (req, res) => {
+app.get("/health", (req, res) => {
   res.status(200).json({
     success: true,
     message: "Bible API is running!",

@@ -11,7 +11,7 @@ const keepServerAlive = async () => {
   try {
     console.log(`🏃 Keep-alive ping at ${new Date().toISOString()}`);
     
-    const response = await fetch(`${SERVER_URL}/api/health`, {
+    const response = await fetch(`${SERVER_URL}/health`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

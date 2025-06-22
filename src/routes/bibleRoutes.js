@@ -33,7 +33,7 @@ router.get(
 );
 
 // Get verses from gospel name
-router.get("/books/:bookId/gospelName/:gospelName", getVersesByGospel);
+router.get("/verses/:bookId/:gospelName", getVersesByGospel);
 
 // // Search verses by text content
 router.get("/search", searchVerses);
