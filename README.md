@@ -29,24 +29,6 @@ A RESTful API for accessing Bible verses, books, and performing text searches ac
 https://bible.rauchrodrigues.in/api/bible/v1
 ```
 
-### Health Check
-
-Check if the API is running:
-
-**GET** `/health`
-
-**Response:**
-
-```json
-{
-  "success": true,
-  "message": "Bible API is running!",
-  "timestamp": "2025-06-22T10:30:00.000Z"
-}
-```
-
----
-
 ## 📖 Bible Books
 
 ### Get All Bible Books
